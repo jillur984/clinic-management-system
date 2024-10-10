@@ -1,8 +1,11 @@
+import Loginpage from "./page/Loginpage"
 
 
 const App = () => {
   return (
-    <h2>Hello Jillur Rahman</h2>
+    <div className="container px-4 md:px-8 lg:px-16">
+      <Loginpage/>
+    </div>
   )
 }
 
