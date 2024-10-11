@@ -1,10 +1,10 @@
-import DiaganosticIcon from "../assets/Diaganostic.jpg";
+import DiaganosticIcon from '../assets/diaganostic.jpeg'
 import ClinicLogo from "../assets/clinic_home.svg";
 
 const Loginpage = () => {
   return (
     <>
-      <section className="container bg-gray-100 w-full flex  gap-2">
+      <section className="container w-full flex  gap-2">
         {/* login Page left */}
 
         <div className="max-w-[50%] items-center">
