@@ -1,4 +1,4 @@
-import DiaganosticIcon from '../assets/diaganostic.jpeg'
+import DiaganosticIcon from '../assets/diaganostic.svg'
 import ClinicLogo from "../assets/clinic_home.svg";
 
 const Loginpage = () => {
@@ -21,7 +21,7 @@ const Loginpage = () => {
             <h2 className=" text-justify items-center mx-6 mt-4 w-full ">
               Popular Diaganostic is very famouse Diaganostic in the bangladesh.
             </h2>
-            <div className="mt-16">
+            <div className="mt-8">
               <img src={ClinicLogo} className="w-full p-5 mx-auto" />
             </div>
           </div>
