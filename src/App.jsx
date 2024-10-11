@@ -1,12 +1,20 @@
-import Loginpage from "./page/Loginpage"
-
+import Loginpage from "./page/Loginpage";
+import Navbar from "./components/Navbar";
+import SignupPage from "./page/SignupPage";
+import { Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
-    <div className="container px-4 md:px-8 lg:px-16">
-      <Loginpage/>
-    </div>
-  )
-}
+    <>
+      <Navbar />
+      <div className="container">
+        <Routes>
+          <Route path="/signup" element={<SignupPage />} />
+          <Route path="/login" element={<Loginpage />} />
+        </Routes>
+      </div>
+    </>
+  );
+};
 
-export default App
+export default App;
