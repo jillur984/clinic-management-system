@@ -1,7 +1,9 @@
-import DiaganosticIcon from '../assets/diaganostic.svg'
+import DiaganosticIcon from "../assets/diaganostic.svg";
 import ClinicLogo from "../assets/clinic_home.svg";
+import { useNavigate } from "react-router-dom";
 
 const Loginpage = () => {
+  const navigate = useNavigate();
   return (
     <>
       <section className="container w-full flex  gap-2">
@@ -11,7 +13,7 @@ const Loginpage = () => {
           <div className="mt-10 p-10 w-full">
             <div className="flex items-center justify-center gap-1 ">
               <div>
-                <img src={DiaganosticIcon} alt="" className="w-12 mx-auto " />
+                <img src={DiaganosticIcon} alt="" className="w-12 mx-auto rounded " />
               </div>
               <h2 className="text-1xl text-blue-600">
                 <span className="text-purple-800">Popular</span> Diaganostic
@@ -42,7 +44,7 @@ const Loginpage = () => {
                 htmlFor="email"
                 className="block text-sm font-medium text-gray-700 mb-1"
               >
-                Email or Username
+                Email
               </label>
               <input
                 type="email"
@@ -73,6 +75,7 @@ const Loginpage = () => {
               <button
                 type="submit"
                 className="w-full px-4 py-2 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+                onClick={()=>navigate("/home")}
               >
                 Login
               </button>
@@ -83,10 +86,13 @@ const Loginpage = () => {
           <div className="mt-6 text-center text-sm text-gray-500">
             <p>
               Don't have an account?
-              <a href="#" className="text-blue-600 hover:underline">
+              <button
+                onClick={() => navigate("/signup")}
+                className="text-blue-600 hover:underline"
+              >
                 {" "}
                 Sign up
-              </a>
+              </button>
             </p>
           </div>
         </div>
