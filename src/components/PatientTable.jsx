@@ -21,10 +21,32 @@ const PatientTable = () => {
                     <td className="text-center">
                         <div className=' flex justify-end '>
                             <div className='flex items-center justify-center'>
-                            <img src={jillur} alt="" className='h-12 w-12 rounded-full ' />
+                            <img src={jillur} alt="" className='h-12 w-12 rounded-full mx-2.5 ' />
                             </div>
-                            <div className='mx-4'>
-                            <h1>Md. Jillur Rahman</h1>
+                            <div className='mx-2'>
+                            <h1 className='font-bold mt-3'>Md. Jillur Rahman</h1>
+                            <h2>+8801611780984</h2>
+                            </div>
+                        </div>
+                    </td>
+                    <td className="px-10 text-center">20 Augest 2021</td>
+                    <td className="px-6 text-center">Male</td>
+                    <td className="px-6 text-center">B+</td>
+                    <td className="px-6 text-center">27</td>
+                    <td className="px-6 text-center"><span className="font-bold cursor-pointer">...</span></td>
+                </tr>
+            </tbody>
+            
+            <tbody>
+                <tr className='border-b-2'>
+                    <td className="text-center">2</td>
+                    <td className="text-center">
+                        <div className=' flex justify-end '>
+                            <div className='flex items-center justify-center'>
+                            <img src={jillur} alt="" className='h-12 w-12 rounded-full mx-2.5 ' />
+                            </div>
+                            <div className='mx-2'>
+                            <h1 className='font-bold mt-3'>Md. Jillur Rahman</h1>
                             <h2>+8801611780984</h2>
                             </div>
                         </div>
@@ -38,36 +60,14 @@ const PatientTable = () => {
             </tbody>
             <tbody>
                 <tr className='border-b-2'>
-                    <td className="text-center">1</td>
+                    <td className="text-center">3</td>
                     <td className="text-center">
                         <div className=' flex justify-end '>
                             <div className='flex items-center justify-center'>
-                            <img src={jillur} alt="" className='h-12 w-12 rounded-full ' />
+                            <img src={jillur} alt="" className='h-12 w-12 rounded-full mx-2.5 ' />
                             </div>
-                            <div className='mx-4'>
-                            <h1>Md. Jillur Rahman</h1>
-                            <h2>+8801611780984</h2>
-                            </div>
-                        </div>
-                    </td>
-                    <td className="px-10 text-center">20 Augest 2021</td>
-                    <td className="px-6 text-center">Male</td>
-                    <td className="px-6 text-center">B+</td>
-                    <td className="px-6 text-center">27</td>
-                    <td className="px-6 text-center"><span className="font-bold cursor-pointer">...</span></td>
-                </tr>
-                
-            </tbody>
-            <tbody>
-                <tr className='border-b-2'>
-                    <td className="text-center">1</td>
-                    <td className="text-center">
-                        <div className=' flex justify-end '>
-                            <div className='flex items-center justify-center'>
-                            <img src={jillur} alt="" className='h-12 w-12 rounded-full ' />
-                            </div>
-                            <div className='mx-4'>
-                            <h1>Md. Jillur Rahman</h1>
+                            <div className='mx-2'>
+                            <h1 className='font-bold mt-3'>Md. Jillur Rahman</h1>
                             <h2>+8801611780984</h2>
                             </div>
                         </div>
@@ -79,48 +79,7 @@ const PatientTable = () => {
                     <td className="px-6 text-center"><span className="font-bold cursor-pointer">...</span></td>
                 </tr>
             </tbody>
-            <tbody>
-                <tr className='border-b-2'>
-                    <td className="text-center">1</td>
-                    <td className="text-center">
-                        <div className=' flex justify-end '>
-                            <div className='flex items-center justify-center'>
-                            <img src={jillur} alt="" className='h-12 w-12 rounded-full ' />
-                            </div>
-                            <div className='mx-4'>
-                            <h1>Md. Jillur Rahman</h1>
-                            <h2>+8801611780984</h2>
-                            </div>
-                        </div>
-                    </td>
-                    <td className="px-10 text-center">20 Augest 2021</td>
-                    <td className="px-6 text-center">Male</td>
-                    <td className="px-6 text-center">B+</td>
-                    <td className="px-6 text-center">27</td>
-                    <td className="px-6 text-center"><span className="font-bold cursor-pointer">...</span></td>
-                </tr>
-            </tbody>
-            <tbody>
-                <tr>
-                    <td className="text-center">1</td>
-                    <td className="text-center">
-                        <div className=' flex justify-end '>
-                            <div className='flex items-center justify-center'>
-                            <img src={jillur} alt="" className='h-12 w-12 rounded-full ' />
-                            </div>
-                            <div className='mx-4'>
-                            <h1>Md. Jillur Rahman</h1>
-                            <h2>+8801611780984</h2>
-                            </div>
-                        </div>
-                    </td>
-                    <td className="px-10 text-center">20 Augest 2021</td>
-                    <td className="px-6 text-center">Male</td>
-                    <td className="px-6 text-center">B+</td>
-                    <td className="px-6 text-center">27</td>
-                    <td className="px-6 text-center"><span className="font-bold cursor-pointer">...</span></td>
-                </tr>
-            </tbody>
+            
         </table>
       </div>
     </>
