@@ -58,6 +58,13 @@ const Patient = () => {
           </div>
           <PatientTable />
         </div>
+        <div className="flex justify-end items-end mt-12 mb-5 relative">
+          <div className="relative h-16 w-16">
+            <button className="flex items-center justify-center border h-18 w-18 bg-blue-600 rounded-full font-bold absolute inset-0 m-auto bounce-animation">
+              +
+            </button>
+          </div>
+        </div>
       </section>
     </>
   );
