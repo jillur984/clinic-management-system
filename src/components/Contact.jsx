@@ -64,43 +64,42 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <div className="flex">
-        <div className="block mx-8 w-[60%]">
+      <div className="flex flex-col md:flex-row w-full">
+        <div className="w-full mx-8 md:w-[60%] order-2 md:order-1">
           <div className="w-full">
-            <h1 className="font-bold text-2xl text-gray-600 mb-2">
+            <h1 className="font-bold text-2xl text-gray-600 mb-2 mt-2">
               Have any Questions?
             </h1>
             <form action="">
-
               {/* name and email filed */}
 
-              <div className="block md:flex gap-4 mb-4 w-full">
-          <div className="w-full md:w-[50%]">
-            <label htmlFor="name" className="font-bold text-gray-600">
-              Name:
-            </label>
-            <input
-              type="text"
-              name="name"
-              id="name"
-              placeholder="Name"
-              className="w-full p-2"
-            />
-          </div>
+              <div className="w-full md:flex gap-4 mb-4">
+                <div className="w-full md:w-[50%]">
+                  <label htmlFor="name" className="font-bold text-gray-600">
+                    Name:
+                  </label>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Name"
+                    className="w-full p-2"
+                  />
+                </div>
 
-          <div className="w-full md:w-[50%]">
-            <label htmlFor="email" className="font-bold text-gray-600">
-              Email:
-            </label>
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Email"
-              className="w-full p-2"
-            />
-          </div>
-        </div>
+                <div className="w-full md:w-[50%]">
+                  <label htmlFor="email" className="font-bold text-gray-600">
+                    Email:
+                  </label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Email"
+                    className="w-full p-2"
+                  />
+                </div>
+              </div>
 
               {/* Subject flield Start */}
 
@@ -126,15 +125,15 @@ const Contact = () => {
                   className="w-full p-7 h-40"
                 ></textarea>
               </div>
-              <button className="bg-blue-700 rounded-md p-2 hover:bg-yellow-500 mt-4">
-                Send us Message
+              <button className="bg-orange-700 rounded-md p-2 hover:bg-yellow-500 mt-4">
+                Send
               </button>
             </form>
           </div>
         </div>
 
         {/* Google Map Embedded */}
-        <div className="w-[40%] h-[400px]">
+        <div className="w-full mt-5 md:w-[40%] h-[400px] order-1 md:order-2">
           <iframe
             title="Clinic Management App Location"
             width="100%"
