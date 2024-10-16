@@ -21,7 +21,7 @@ const Navbar = () => {
             <Link to="/report">Report</Link>
           </li>
           <li className="hover:bg-green-700 p-2 rounded-md transition duration-300">
-            <Link to="/intern">Internship Care</Link>
+            <Link to="/signup">Internship Care</Link>
           </li>
           <div className="h-auto">
             <span><img src={Jillur} alt="" className="h-10 border rounded-full cursor-pointer" /></span>
